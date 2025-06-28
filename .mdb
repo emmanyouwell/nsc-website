@@ -1,0 +1,9 @@
+{
+  "projectName": "nsc-react-app",
+  "meta": {
+    "type": "frontend"
+  },
+  "packageManager": "npm",
+  "hash": "c40cfc02",
+  "domain": "nsc.mdbgo.io"
+}

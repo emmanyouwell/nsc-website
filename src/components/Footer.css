@@ -1,0 +1,15 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    margin-top:auto;
+    
+    background-color:#009879;
+    width:100%;
+    transform: translateY(80%);
+    padding:40px 60px;
+    
+    color: white;
+  }
+  .clearfix{
+    clear:both;
+  }

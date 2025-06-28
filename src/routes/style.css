@@ -1,0 +1,330 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+
+.first-section {
+    font-size: 1.1rem;
+}
+
+.second-section {
+    font-size: 1.1rem;
+}
+
+.third-section {
+    font-size: 1.1rem;
+}
+
+.fourth-section {
+    font-size: 1.1rem;
+}
+
+
+/* Base diamond style */
+.baseParent {
+    position: relative;
+    min-height: 380px;
+    max-width: 380px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.base {
+    height: 150px;
+    width: 150px;
+    transition: 0.4s;
+}
+.b2 {
+
+    position: absolute;
+    top: 6%;
+    left: 30%;
+}
+.b2:hover {
+    transform: translateY(-10%);
+}
+.b16 {
+    position: absolute;
+    top: 30%;
+    right: 6%;
+}
+
+.b16:hover {
+    transform: translateX(10%);
+}
+
+.b8 {
+    position: absolute;
+    top: 30%;
+    left: 6%;
+}
+
+.b8:hover {
+    transform: translateX(-10%);
+}
+
+.bN {
+    position: absolute;
+    bottom: 6%;
+    left: 30%;
+}
+
+.bN:hover {
+    transform: translateY(10%);
+}
+
+@media screen and (max-width: 440px) {
+    .baseParent {
+        position: relative;
+        min-height: 380px;
+        min-width: 380px;
+        margin-left: auto;
+        margin-right: auto;
+        left: -1.33%;
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+    .baseParent {
+        position: relative;
+        min-height: 375px;
+        min-width: 375px;
+        margin-left: auto;
+        margin-right: auto;
+        left: -5%;
+    }
+
+}
+@media screen and (max-width: 360px){
+    .baseParent {
+        position: relative;
+        min-height: 360px;
+        min-width: 360px;
+        margin-left: auto;
+        margin-right: auto;
+        left: -5%;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    .baseParent {
+        position: relative;
+        width: 280px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        left: -6%;
+    }
+
+    .base {
+        height: 100px;
+        width: 100px;
+        transition: 0.4s;
+    }
+    .b2 {
+        position: absolute;
+        top: 6%;
+        left: 23%;
+    }
+    .b2:hover {
+        transform: translateY(-10%);
+    }
+    .b16 {
+        position: absolute;
+        top: 25%;
+        right: 34%;
+    }
+    .b16:hover {
+        transform: translateX(10%);
+    }
+    .b8 {
+        position: absolute;
+        top: 25%;
+        left: 6%;
+    }
+    .b8:hover {
+        transform: translateX(-10%);
+    }
+    .bN {
+        position: absolute;
+        bottom: 30%;
+        left: 23%;
+    }
+    .bN:hover {
+        transform: translateY(10%);
+    }
+}
+
+
+/* End of base diamond style */
+
+
+/* TV container css */
+
+.tv-container {
+    background: url('/src/image/tv.svg') no-repeat top left transparent;
+    background-size: contain;
+    width: 500px;
+    height: 500px;
+    position: relative;
+}
+
+.tv-container iframe {
+    position: absolute;
+    top: 18%;
+    left: 6%;
+    width: 88%;
+    height: 54%;
+}
+
+@media screen and (max-width: 1199px){
+    .tv-container iframe{
+        position: absolute;
+        top: 15%;
+        left: 5%;
+        width: 89%;
+        height: 52%;
+    }
+}
+
+@media screen and (max-width: 990px){
+    .tv-container iframe{
+        position: absolute;
+        top: 20%;
+        left: 5%;
+        width: 89%;
+        height: 52%;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .tv-container iframe {
+        position: absolute;
+        top: 20%;
+        left: 5%;
+        width: 89%;
+        height: 52%;
+    }
+}
+
+@media screen and (max-width: 520px){
+    .tv-container iframe {
+        position: absolute;
+        top: 19%;
+        left: 5%;
+        width: 89%;
+        height: 52%;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .tv-container iframe {
+        position: absolute;
+        top: 14%;
+        left: 5%;
+        width: 89%;
+        height: 45%;
+    }
+}
+
+@media screen and (max-width: 414px){
+    .tv-container iframe {
+        position: absolute;
+        top: 15.33%;
+        left: 5%;
+        width: 89%;
+        height: 40%;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .tv-container iframe {
+        position: absolute;
+        top: 14%;
+        left: 5%;
+        width: 89.33%;
+        height: 39%;
+    }
+}
+
+@media screen and (max-width: 393px) {
+    .tv-container iframe {
+        position: absolute;
+        top: 13%;
+        left: 5.33%;
+        width: 89%;
+        height: 39%;
+    }
+}
+
+@media screen and (max-width: 370px){
+    .tv-container iframe {
+        position: absolute;
+        top: 13%;
+        left: 5.33%;
+        width: 89%;
+        height: 36%;
+    }
+}
+
+
+
+
+/* Instructions */
+.title {
+    position: relative;
+}
+
+.ins-1 {
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    text-align: center;
+    transition: 0.1s;
+}
+
+.ins-1 img {
+    position: absolute;
+    width: 90%;
+    height: auto;
+    top: -250%;
+    left: -50%;
+    transform: rotate(45deg);
+}
+
+@media screen and (max-width: 1199px) {
+    .ins-1 {
+        position: absolute;
+        top: 50%;
+        left: 75%;
+    }
+}
+
+@media screen and (max-width: 999px) {
+    .ins-1 {
+        position: absolute;
+        top: 0;
+        left: 80%;
+    }
+
+    .ins-1 img {
+        position: absolute;
+        width: 80%;
+        height: auto;
+        top: -100%;
+        left: -50%;
+        transform: rotate(45deg);
+    }
+}
+
+@media screen and (max-width: 775px) {
+    .ins-1 {
+        display: none;
+    }
+}
