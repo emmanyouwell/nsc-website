@@ -3,7 +3,6 @@ import React, { useState, useRef, useEffect } from 'react'
 //Custom Components
 import Navbar from "../components/Navbar";
 import Calculator from "../components/Converter";
-import Info from "./WholeNumber/Info";
 import Footer from "../components/Footer.js";
 import ScrollTop from '../components/ScrollTop';
 
